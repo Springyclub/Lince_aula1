@@ -8,7 +8,7 @@ List <String> Nome = [ 'Ana',
   'Rafaela',
   'Marcio',
   'Jose',
-  'Carlos',
+  'Yasmin',
   'Patricia',
   'Helena',
   'Camila',
@@ -44,9 +44,12 @@ List <String> sobreNome =['Silva',
   'Lopes',
   'Barbosa'];
 
+var num1 = math.Random();
+var Pnome = num1.nextInt(Nome.length);
+var Snome = num1.nextInt(sobreNome.length);
+var num2 =math.Random();
 void main(){
-  var num1 = math.Random();
-  var Nome = num1.nextInt(Nome.length);
-  var num2 =math.Random();
-  print(Nome);
+
+
+  print("${Nome[Pnome]} ${sobreNome[Snome]}");
 }

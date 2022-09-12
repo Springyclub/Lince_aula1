@@ -7,7 +7,6 @@ void main(){
     ///não sei mostrar no print
     double raio = Lista[i];
     double area = pow(Lista[i],2)*pi;
-
     double perimetro= 2*pi*Lista[i];
     ///String r = raio.toStringAsPrecision(2);
     ///String p =perimetro.toStringAsPrecision(4);
